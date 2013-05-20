@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:jdbc.properties</value>
+			</list>
+		</property>
+	</bean>
+<!-- log4j Propiedades -->     
+        <bean id="log4jInitializer" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">  
+   <property name="staticMethod" value="org.springframework.util.Log4jConfigurer.initLogging" />  
+   <property name="arguments">
+      <list>  
+         <value>classpath:log4j.properties</value>
+         <value>1000</value>
+      </list>  
+   </property>  
+       </bean>  
+<!--  log4j Propiedades -->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+	</bean>
+
+	<bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="configurationClass" value="org.hibernate.cfg.AnnotationConfiguration"/>
+		<property name="configLocation">
+			<value>classpath:${hibernate.cfg.file}</value>
+		</property>
+       </bean>
+<bean id="instDao" class= "ve.gob.gobiernoenlinea.dao.imple.DaoImple">
+     <property name="sessionFactory" ref="sessionFactory"/>
+</bean>
+
+<!-- SERVICIOS --> 
+ <bean id="servicio_contentlet" class= "ve.gob.gobiernoenlinea.service.imple.ServiceContentletImple" >
+    <property name="instDao" ref="instDao"/>
+ </bean>
+
+ <bean id="servicio_SiIoGob" class= "ve.gob.gobiernoenlinea.service.imple.ServiceSiloGobImple" >
+    <property name="instDao" ref="instDao"/>
+ </bean>   
+ 
+ <bean id="servicio_TipoDato" class= "ve.gob.gobiernoenlinea.service.imple.ServiceTipoDatoImple" >
+    <property name="instDao" ref="instDao"/>
+ </bean> 
+ 
+ <bean id="servicio_Seccionio" class="ve.gob.gobiernoenlinea.service.imple.ServiceSeccionioImple" >
+     <property name="instDao" ref="instDao"/>
+ </bean>        
+    
+ 
+ 
+
+<!-- SERVICIOS --> 
+<!-- Trabajando con Quartz -->
+    <!-- Los bean de mis clases -->    
+    <bean id="Directorios" class="ve.gob.gobiernoenlinea.Implementacion.ImpleDirectorios"/>
+    <bean id="Tramites" class="ve.gob.gobiernoenlinea.Implementacion.ImpleTramites"/>
+    <bean id="Estados" class="ve.gob.gobiernoenlinea.Implementacion.ImpleEstados"/>
+    <bean id="Municipios" class="ve.gob.gobiernoenlinea.Implementacion.ImpleMunicipios"/>
+    <bean id="Universidades" class="ve.gob.gobiernoenlinea.Implementacion.ImpleUniversidades"/>
+    <!-- Mi Tareas -->
+    <!-- 1. DIRECTORIOS -->
+    <bean id="tarea" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean"> 
+          <property name="targetObject" ref="Directorios" />
+          <property name="targetMethod" value="Actualizacion" />
+          <property name="concurrent" value="false" /> 
+    </bean>
+    <!-- 2. TRAMITES -->
+    <bean id="tarea2" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+          <property name="targetObject" ref="Tramites" />
+          <property name="targetMethod" value="ActualizacionTra" />
+          <property name="concurrent" value="false" />
+    </bean>
+    <!-- 3. ESTADOS -->
+    <bean id="tarea3" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+          <property name="targetObject" ref="Estados" />
+          <property name="targetMethod" value="ActualiciacionEst" />
+          <property name="concurrent" value="false" />
+    </bean>
+    <!-- 4. MUNICIPIO -->
+    <bean id="tarea4" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+          <property name="targetObject" ref="Municipios" />
+          <property name="targetMethod" value="ActualizacionMun" />
+          <property name="concurrent" value="false" />
+    </bean> 
+     <!-- 4. UNIVERSIDADES -->
+    <bean id="tarea5" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+          <property name="targetObject" ref="Universidades" />
+          <property name="targetMethod" value="ActualizacionUni" />
+          <property name="concurrent" value="false" />
+    </bean>
+    <!-- Mi Actualizacion de Directorios, corre cada 30 segundos -->
+    <bean id="triggerTarea" class="org.springframework.scheduling.quartz.CronTriggerBean">
+	  <property name="jobDetail" ref="tarea"/>
+	  <property name="cronExpression" value="0/30 * * * * ?"/> <!--  Firmado Cada 30 SEGUNDOS  -->
+    </bean>
+    <!-- Mi Actualizacion de Tramites, Corre cada 1 minuto -->
+    <bean id="triggerTarea2" class="org.springframework.scheduling.quartz.CronTriggerBean">
+          <property name="jobDetail" ref="tarea2"/>
+	  <property name="cronExpression" value="0 0/1 * 1/1 * ? *"/> <!--  Firmado Cada 1 MINUTO  -->
+    </bean>      
+    <!-- Mi Actualizacion de Estados, Corre cada 2 minuto -->
+    <bean id="triggerTarea3" class="org.springframework.scheduling.quartz.CronTriggerBean">
+          <property name="jobDetail" ref="tarea3"/>
+	  <property name="cronExpression" value="0 0/2 * 1/1 * ? *"/> <!--  Firmado Cada 2 MINUTO  -->
+    </bean>      
+    <!-- Mi Actualizacion de Municipios, Corre cada 3 minuto -->
+    <bean id="triggerTarea4" class="org.springframework.scheduling.quartz.CronTriggerBean">
+          <property name="jobDetail" ref="tarea4"/>
+	  <property name="cronExpression" value="0 0/3 * 1/1 * ? *"/> <!--  Firmado Cada 3 MINUTO  -->
+    </bean>      
+     <!-- Mi Actualizacion de Universidades, Corre cada 4 minuto -->      
+    <bean id="triggerTarea5" class="org.springframework.scheduling.quartz.CronTriggerBean">
+          <property name="jobDetail" ref="tarea5"/>
+	  <property name="cronExpression" value="0 0/4 * 1/1 * ? *"/> <!--  Firmado Cada 4 MINUTO  -->
+    </bean>      
+    <!-- Mi trigger, que ejecutan la tarea -->
+   <!-- </bean> -->
+    <bean id="schedulerFactoryBean" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+    <property name="triggers">
+      <list>
+            <ref bean="triggerTarea" />
+      </list>
+    </property>
+ </bean>
+ <bean id="schedulerFactoryBean2" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+ <property name="triggers">
+      <list>
+            <ref bean="triggerTarea2"/>
+      </list>
+    </property>   
+ </bean>
+ <bean id="schedulerFactoryBean3" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+    <property name="triggers">
+      <list>
+            <ref bean="triggerTarea3" />
+      </list>
+    </property>
+ </bean>
+ <bean id="schedulerFactoryBean4" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+    <property name="triggers">
+      <list>
+            <ref bean="triggerTarea4" />
+      </list>
+    </property>
+ </bean>
+ <bean id="schedulerFactoryBean5" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+    <property name="triggers">
+      <list>
+            <ref bean="triggerTarea5" />
+      </list>
+    </property>
+ </bean>
+<!-- Fin   Trabajando con Quartz -->
+</beans>

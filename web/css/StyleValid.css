@@ -1,0 +1,30 @@
+/*
+* Licencia GPL v3
+* Copyright (C) 2013 Gerardo Perez. All Rights Reserved.
+* 
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or any
+* later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+* 
+* You should have received a copy of the GNU General Public License
+* along with this program. If not, see http://www.gnu.org/licenses
+*/
+
+input[type="text"], select, textarea, input[type="password"], input[type="file"], input[type="radio"]{border:solid 1px #cccccc;background-color:#f2f2f2;}
+input[type="text"]:focus, select:focus, textarea:focus, field:focus, input[type="password"]:focus, input[type="file"]:focus,input[type="radio"]:focus{border:solid 1px #cc3300; background-color: #ffffff;}
+input,select,textarea {font-family: Baskerville, Garamond , serif;font-size:1.5em;margin:2px;font-weight:normal;}
+
+label.error{
+    color:red;
+    background-image: url(img/error.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+

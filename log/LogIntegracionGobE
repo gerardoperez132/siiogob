@@ -1,0 +1,580 @@
+2013-02-02 20:12:01,163 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:12:01,156 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:12:01,153 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:01,152 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:12:01,152 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:01,148 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:01,146 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:12:01,144 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:12:01,144 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:12:01,144 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:01,140 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:01,181  INFO TableMetadata:42 - foreign keys: [fkfc4ef025fb51eb]
+2013-02-02 20:12:01,185  INFO TableMetadata:43 - indexes: [idx_contentlet_2, idx_contentlet_1, contentlet_pkey]
+2013-02-02 20:12:01,226  INFO TableMetadata:39 - table found: public.inode
+2013-02-02 20:12:01,226  INFO TableMetadata:40 - columns: [idate, owner, type, identifier, inode]
+2013-02-02 20:12:01,226  INFO TableMetadata:42 - foreign keys: []
+2013-02-02 20:12:01,226  INFO TableMetadata:43 - indexes: [idx_index_2, idx_index_1, inode_pkey]
+2013-02-02 20:12:01,261  INFO TableMetadata:39 - table found: public.siiogob
+2013-02-02 20:12:01,262  INFO TableMetadata:40 - columns: [id, id_tipo_de_datos, identificador, cadena_inicio, cadena_fin, url]
+2013-02-02 20:12:01,262  INFO TableMetadata:42 - foreign keys: []
+2013-02-02 20:12:01,262  INFO TableMetadata:43 - indexes: [siiogob_pkey]
+2013-02-02 20:12:01,289  INFO TableMetadata:39 - table found: public.tipodato
+2013-02-02 20:12:01,290  INFO TableMetadata:40 - columns: [nombre, id_structure_inode, descripcion, id_tipo_datos]
+2013-02-02 20:12:01,290  INFO TableMetadata:42 - foreign keys: []
+2013-02-02 20:12:01,290  INFO TableMetadata:43 - indexes: [tipodato_pkey]
+2013-02-02 20:12:01,318  INFO TableMetadata:39 - table found: public.seccionio
+2013-02-02 20:12:01,319  INFO TableMetadata:40 - columns: [id_structure_inode, descripcion, seccion, estatus]
+2013-02-02 20:12:01,319  INFO TableMetadata:42 - foreign keys: []
+2013-02-02 20:12:01,320  INFO TableMetadata:43 - indexes: [seccionio_pkey]
+2013-02-02 20:12:01,320  INFO SchemaUpdate:160 - schema update complete
+2013-02-02 20:12:01,399 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:01,403 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:01,429 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:12:01,454 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:12:01,462 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:01,469 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:01,472 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:12:01,500 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:12:01,512 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:12:01,521 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:01,636 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:12:01,759  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:12:01,760  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:12:01,761  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:12:01,761  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2013-02-02 20:12:01,761  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:12:01,762  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@2634fad8
+2013-02-02 20:12:01,765  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:12:01,765  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:12:01,765  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:12:01,765  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean2' initialized from an externally provided properties instance.
+2013-02-02 20:12:01,765  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:12:01,765  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5eda5064
+2013-02-02 20:12:01,774  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:12:01,774  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:12:01,774  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:12:01,775  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean3' initialized from an externally provided properties instance.
+2013-02-02 20:12:01,775  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:12:01,775  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1308c2db
+2013-02-02 20:12:01,778  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:12:01,779  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:12:01,779  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:12:01,779  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean4' initialized from an externally provided properties instance.
+2013-02-02 20:12:01,779  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:12:01,779  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@418b04a5
+2013-02-02 20:12:01,784  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:12:01,784  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:12:01,784  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:12:01,784  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean5' initialized from an externally provided properties instance.
+2013-02-02 20:12:01,784  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:12:01,785  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@443682bf
+2013-02-02 20:12:01,786  INFO DefaultLifecycleProcessor:334 - Starting beans in phase 2147483647
+2013-02-02 20:12:01,787  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:12:01,787  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2013-02-02 20:12:01,787  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:12:01,787  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean2_$_NON_CLUSTERED started.
+2013-02-02 20:12:01,787  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:12:01,788  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean3_$_NON_CLUSTERED started.
+2013-02-02 20:12:01,788  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:12:01,788  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean4_$_NON_CLUSTERED started.
+2013-02-02 20:12:01,788  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:12:01,788  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean5_$_NON_CLUSTERED started.
+2013-02-02 20:12:01,794 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:01,813 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:06,691 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asd
+2013-02-02 20:12:06,699 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asdasd
+2013-02-02 20:12:06,707 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asdasd
+2013-02-02 20:12:06,715 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:06,727 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asd
+2013-02-02 20:12:06,731 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asdasd
+2013-02-02 20:12:06,735 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asdasd
+2013-02-02 20:12:06,740 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:06,740 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:06,745 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:06,746 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:06,748 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:07,100 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asd
+2013-02-02 20:12:07,103 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asdasd
+2013-02-02 20:12:07,106 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asdasd
+2013-02-02 20:12:07,111 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:07,115 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:07,117 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:07,150 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:12:07,151 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:07,154 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:12:07,157 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:07,182 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:07,190 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:07,199 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:07,209 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:07,209 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:07,212 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:07,213 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:12:07,214 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:07,216 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:07,220 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:07,225 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:07,226 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:07,235 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:07,238 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:07,836 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:12:07,840 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:07,843 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:07,847 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:07,850 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:07,854 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:07,974 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asd
+2013-02-02 20:12:07,978 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asdasd
+2013-02-02 20:12:07,981 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asdasd
+2013-02-02 20:12:07,985 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:07,988 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:07,992 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:08,418 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asd
+2013-02-02 20:12:08,422 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asdasd
+2013-02-02 20:12:08,425 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asdasd
+2013-02-02 20:12:08,428 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:08,432 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:08,435 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:08,941 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:12:08,945 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:08,948 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:08,951 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:08,955 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:08,958 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:09,479 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:12:09,483 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:09,486 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:09,490 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:09,494 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:09,497 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:10,076 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asd
+2013-02-02 20:12:10,079 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asdasd
+2013-02-02 20:12:10,083 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  asdasd
+2013-02-02 20:12:10,086 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:10,090 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:10,093 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra = asdasd
+2013-02-02 20:12:30,002  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:12:30,002  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:12:30,003  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:12:30,003  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:12:30,003  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:12:30,002  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:12:30,002  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:12:30,011 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:30,011 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:30,011 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:30,015 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:30,018 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:30,018 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:30,019 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:30,024 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:30,030 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:30,032 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:30,035 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:30,050 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:30,050 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:30,060 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:12:32,617 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:12:32,621 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:32,624 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:32,628 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:32,631 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:32,635 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,264 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:12:34,266 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:34,268 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:34,270 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,272 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,274 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,361 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:12:34,365 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:34,368 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:34,371 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,375 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,378 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,404 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:12:34,407 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:34,410 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:34,414 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,417 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,421 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,474 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:12:34,477 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:34,481 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:34,485 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,488 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,491 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,517 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:12:34,520 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:34,524 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:34,527 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,531 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,534 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,740 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:12:34,743 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:34,745 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:12:34,749 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,752 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:12:34,755 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:13:00,001  INFO ImpleTramites:43 - INICIO DE LA ACTUALIZACION DE LOS TRAMITES
+2013-02-02 20:13:00,002  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:13:00,002  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:13:00,005  INFO ImpleTramites:43 - INICIO DE LA ACTUALIZACION DE LOS TRAMITES
+2013-02-02 20:13:00,009  INFO ImpleTramites:43 - INICIO DE LA ACTUALIZACION DE LOS TRAMITES
+2013-02-02 20:13:00,005  INFO ImpleTramites:43 - INICIO DE LA ACTUALIZACION DE LOS TRAMITES
+2013-02-02 20:13:00,013  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:13:00,012  INFO ImpleTramites:43 - INICIO DE LA ACTUALIZACION DE LOS TRAMITES
+2013-02-02 20:13:00,012  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:13:00,011  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:13:00,011  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:13:00,009  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:13:00,009  INFO ImpleTramites:43 - INICIO DE LA ACTUALIZACION DE LOS TRAMITES
+2013-02-02 20:13:00,009  INFO ImpleTramites:43 - INICIO DE LA ACTUALIZACION DE LOS TRAMITES
+2013-02-02 20:13:00,018 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:13:00,025 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:00,025 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:00,025 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:00,030 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:00,037 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:13:00,037 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:00,038 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:00,027 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:13:00,041 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:00,042 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:13:00,041 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:13:00,042 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:00,043 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:00,037 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:13:00,036 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:00,036 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:00,035 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:00,035 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:13:00,034 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:13:00,047 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:00,033 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:00,047 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:13:00,048 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:13:00,048 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:13:00,048 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:13:00,049 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:13:00,055 ERROR ImpleTramites:64 - SIS002E : Problemas de Conexion contra =  www.gob.ve
+2013-02-02 20:13:02,787 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:13:02,791 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:13:02,794 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:13:02,797 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:13:02,801 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:13:02,804 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:13:02,950  INFO XmlWebApplicationContext:1020 - Closing Root WebApplicationContext: startup date [Sat Feb 02 20:11:51 VET 2013]; root of context hierarchy
+2013-02-02 20:13:02,953  INFO DefaultLifecycleProcessor:349 - Stopping beans in phase 2147483647
+2013-02-02 20:13:02,957  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2013-02-02 20:13:02,958  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean2_$_NON_CLUSTERED paused.
+2013-02-02 20:13:02,958  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean3_$_NON_CLUSTERED paused.
+2013-02-02 20:13:02,958  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean4_$_NON_CLUSTERED paused.
+2013-02-02 20:13:02,958  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean5_$_NON_CLUSTERED paused.
+2013-02-02 20:13:02,959  INFO DefaultListableBeanFactory:433 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7e79a857: defining beans [propertyConfigurer,log4jInitializer,dataSource,sessionFactory,instDao,servicio_contentlet,servicio_SiIoGob,servicio_TipoDato,servicio_Seccionio,Directorios,Tramites,Estados,Municipios,Universidades,tarea,tarea2,tarea3,tarea4,tarea5,triggerTarea,triggerTarea2,triggerTarea3,triggerTarea4,triggerTarea5,schedulerFactoryBean,schedulerFactoryBean2,schedulerFactoryBean3,schedulerFactoryBean4,schedulerFactoryBean5]; root of factory hierarchy
+2013-02-02 20:13:02,959  INFO SchedulerFactoryBean:758 - Shutting down Quartz Scheduler
+2013-02-02 20:13:02,959  INFO QuartzScheduler:570 - Scheduler schedulerFactoryBean5_$_NON_CLUSTERED shutting down.
+2013-02-02 20:13:02,959  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean5_$_NON_CLUSTERED paused.
+2013-02-02 20:13:02,961  INFO QuartzScheduler:621 - Scheduler schedulerFactoryBean5_$_NON_CLUSTERED shutdown complete.
+2013-02-02 20:13:02,962  INFO SchedulerFactoryBean:758 - Shutting down Quartz Scheduler
+2013-02-02 20:13:02,962  INFO QuartzScheduler:570 - Scheduler schedulerFactoryBean4_$_NON_CLUSTERED shutting down.
+2013-02-02 20:13:02,962  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean4_$_NON_CLUSTERED paused.
+2013-02-02 20:13:02,964  INFO QuartzScheduler:621 - Scheduler schedulerFactoryBean4_$_NON_CLUSTERED shutdown complete.
+2013-02-02 20:13:02,965  INFO SchedulerFactoryBean:758 - Shutting down Quartz Scheduler
+2013-02-02 20:13:02,965  INFO QuartzScheduler:570 - Scheduler schedulerFactoryBean3_$_NON_CLUSTERED shutting down.
+2013-02-02 20:13:02,965  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean3_$_NON_CLUSTERED paused.
+2013-02-02 20:13:02,970  INFO QuartzScheduler:621 - Scheduler schedulerFactoryBean3_$_NON_CLUSTERED shutdown complete.
+2013-02-02 20:13:02,970  INFO SchedulerFactoryBean:758 - Shutting down Quartz Scheduler
+2013-02-02 20:13:02,971  INFO QuartzScheduler:570 - Scheduler schedulerFactoryBean2_$_NON_CLUSTERED shutting down.
+2013-02-02 20:13:02,971  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean2_$_NON_CLUSTERED paused.
+2013-02-02 20:13:02,973  INFO QuartzScheduler:621 - Scheduler schedulerFactoryBean2_$_NON_CLUSTERED shutdown complete.
+2013-02-02 20:13:02,974  INFO SchedulerFactoryBean:758 - Shutting down Quartz Scheduler
+2013-02-02 20:13:02,974  INFO QuartzScheduler:570 - Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2013-02-02 20:13:02,974  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2013-02-02 20:13:02,976  INFO QuartzScheduler:621 - Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2013-02-02 20:13:02,977  INFO LocalSessionFactoryBean:223 - Closing Hibernate SessionFactory
+2013-02-02 20:13:02,978  INFO SessionFactoryImpl:769 - closing
+2013-02-02 20:13:04,920  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2013-02-02 20:13:05,062  INFO XmlWebApplicationContext:495 - Refreshing Root WebApplicationContext: startup date [Sat Feb 02 20:13:05 VET 2013]; root of context hierarchy
+2013-02-02 20:13:05,160  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [ve/gob/gobiernoenlinea/config/sprinrgConfig.xml]
+2013-02-02 20:13:05,414  INFO PropertyPlaceholderConfigurer:177 - Loading properties file from class path resource [jdbc.properties]
+2013-02-02 20:13:05,436  INFO DefaultListableBeanFactory:557 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@454171c1: defining beans [propertyConfigurer,log4jInitializer,dataSource,sessionFactory,instDao,servicio_contentlet,servicio_SiIoGob,servicio_TipoDato,servicio_Seccionio,Directorios,Tramites,Estados,Municipios,Universidades,tarea,tarea2,tarea3,tarea4,tarea5,triggerTarea,triggerTarea2,triggerTarea3,triggerTarea4,triggerTarea5,schedulerFactoryBean,schedulerFactoryBean2,schedulerFactoryBean3,schedulerFactoryBean4,schedulerFactoryBean5]; root of factory hierarchy
+2013-02-02 20:13:05,532  INFO Version:15 - Hibernate Annotations 3.2.0.GA
+2013-02-02 20:13:05,547  INFO Environment:514 - Hibernate 3.2.6
+2013-02-02 20:13:05,552  INFO Environment:547 - hibernate.properties not found
+2013-02-02 20:13:05,555  INFO Environment:681 - Bytecode provider name : cglib
+2013-02-02 20:13:05,559  INFO Environment:598 - using JDK 1.4 java.sql.Timestamp handling
+2013-02-02 20:13:05,648  INFO Configuration:1447 - configuring from url: file:/home/gerardo/NetBeansProjects/IoGobEnlineaBETAONE/build/web/WEB-INF/classes/ve/gob/gobiernoenlinea/config/hibernate.cfg.xml
+2013-02-02 20:13:05,734  INFO Configuration:1547 - Configured SessionFactory: null
+2013-02-02 20:13:05,775  INFO AnnotationBinder:387 - Binding entity from annotated class: ve.gob.gobiernoenlinea.modelo.Contentlet
+2013-02-02 20:13:05,815  INFO EntityBinder:340 - Bind entity ve.gob.gobiernoenlinea.modelo.Contentlet on table Contentlet
+2013-02-02 20:13:05,850  INFO AnnotationBinder:387 - Binding entity from annotated class: ve.gob.gobiernoenlinea.modelo.SiIoGob
+2013-02-02 20:13:05,850  INFO EntityBinder:340 - Bind entity ve.gob.gobiernoenlinea.modelo.SiIoGob on table SiIoGob
+2013-02-02 20:13:05,854  INFO AnnotationBinder:387 - Binding entity from annotated class: ve.gob.gobiernoenlinea.modelo.Inode
+2013-02-02 20:13:05,854  INFO EntityBinder:340 - Bind entity ve.gob.gobiernoenlinea.modelo.Inode on table Inode
+2013-02-02 20:13:05,855  INFO AnnotationBinder:387 - Binding entity from annotated class: ve.gob.gobiernoenlinea.modelo.TipoDato
+2013-02-02 20:13:05,855  INFO EntityBinder:340 - Bind entity ve.gob.gobiernoenlinea.modelo.TipoDato on table TipoDato
+2013-02-02 20:13:05,856  INFO AnnotationBinder:387 - Binding entity from annotated class: ve.gob.gobiernoenlinea.modelo.Seccionio
+2013-02-02 20:13:05,856  INFO EntityBinder:340 - Bind entity ve.gob.gobiernoenlinea.modelo.Seccionio on table seccionio
+2013-02-02 20:13:05,887  INFO LocalSessionFactoryBean:777 - Building new Hibernate SessionFactory
+2013-02-02 20:13:05,960  INFO ConnectionProviderFactory:72 - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2013-02-02 20:13:06,060  INFO SettingsFactory:89 - RDBMS: PostgreSQL, version: 8.4.14
+2013-02-02 20:13:06,060  INFO SettingsFactory:90 - JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC3 with SSL (build 603)
+2013-02-02 20:13:06,080  INFO Dialect:152 - Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2013-02-02 20:13:06,086  INFO TransactionFactoryFactory:34 - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2013-02-02 20:13:06,088  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2013-02-02 20:13:06,089  INFO SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+2013-02-02 20:13:06,089  INFO SettingsFactory:147 - Automatic session close at end of transaction: disabled
+2013-02-02 20:13:06,089  INFO SettingsFactory:154 - JDBC batch size: 15
+2013-02-02 20:13:06,089  INFO SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+2013-02-02 20:13:06,090  INFO SettingsFactory:162 - Scrollable result sets: enabled
+2013-02-02 20:13:06,090  INFO SettingsFactory:170 - JDBC3 getGeneratedKeys(): disabled
+2013-02-02 20:13:06,091  INFO SettingsFactory:178 - Connection release mode: auto
+2013-02-02 20:13:06,092  INFO SettingsFactory:205 - Default batch fetch size: 1
+2013-02-02 20:13:06,092  INFO SettingsFactory:209 - Generate SQL with comments: disabled
+2013-02-02 20:13:06,092  INFO SettingsFactory:213 - Order SQL updates by primary key: disabled
+2013-02-02 20:13:06,092  INFO SettingsFactory:217 - Order SQL inserts for batching: disabled
+2013-02-02 20:13:06,092  INFO SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-02-02 20:13:06,095  INFO ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+2013-02-02 20:13:06,096  INFO SettingsFactory:225 - Query language substitutions: {}
+2013-02-02 20:13:06,096  INFO SettingsFactory:230 - JPA-QL strict compliance: disabled
+2013-02-02 20:13:06,096  INFO SettingsFactory:235 - Second-level cache: enabled
+2013-02-02 20:13:06,096  INFO SettingsFactory:239 - Query cache: disabled
+2013-02-02 20:13:06,096  INFO SettingsFactory:373 - Cache provider: org.hibernate.cache.NoCacheProvider
+2013-02-02 20:13:06,096  INFO SettingsFactory:254 - Optimize cache for minimal puts: disabled
+2013-02-02 20:13:06,097  INFO SettingsFactory:263 - Structured second-level cache entries: disabled
+2013-02-02 20:13:06,104  INFO SettingsFactory:290 - Statistics: disabled
+2013-02-02 20:13:06,104  INFO SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+2013-02-02 20:13:06,105  INFO SettingsFactory:309 - Default entity-mode: pojo
+2013-02-02 20:13:06,105  INFO SettingsFactory:313 - Named query checking : enabled
+2013-02-02 20:13:06,133  INFO SessionFactoryImpl:161 - building session factory
+2013-02-02 20:13:06,445  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+2013-02-02 20:13:06,449  INFO SchemaUpdate:115 - Running hbm2ddl schema update
+2013-02-02 20:13:06,450  INFO SchemaUpdate:126 - fetching database metadata
+2013-02-02 20:13:06,480  INFO SchemaUpdate:138 - updating schema
+2013-02-02 20:13:06,612  INFO TableMetadata:39 - table found: public.contentlet
+2013-02-02 20:13:06,614  INFO TableMetadata:40 - columns: [bool3, text19, bool2, show_on_menu, text18, bool5, bool4, bool7, text15, bool6, text14, bool9, text17, bool8, text16, text_area16, text_area17, text_area18, text_area19, text_area12, text_area13, bool1, text_area14, text_area15, text_area20, language_id, text_area22, text_area21, mod_date, text10, text11, text12, text13, working, text_area9, text_area7, text25, text_area8, text_area5, text_area6, text_area3, text_area4, text_area1, text_area25, text_area2, text_area23, text_area24, text23, text24, text21, locked, text22, text20, date20, date21, date22, date23, mod_user, title, date25, date24, float22, date11, float23, date12, float24, float25, date10, text3, text4, float20, text1, float21, text2, text7, text8, text5, text6, text9, last_review, text_area11, text_area10, float19, date19, date18, review_interval, date17, float16, date16, float15, date15, float18, date14, float17, date13, float2, float3, float1, float10, float8, float9, float14, float6, float13, float7, float12, float4, float11, float5, date7, date6, date9, date8, date3, date2, date5, date4, date1, live, deleted, integer1, integer20, integer5, integer21, integer4, integer22, integer3, integer23, integer2, integer9, next_review, integer8, integer7, integer6, bool17, bool18, bool19, bool14, bool13, bool16, bool15, bool10, bool12, structure_inode, bool11, integer14, integer13, integer16, integer15, integer18, integer17, integer19, integer11, integer12, integer10, disabled_wysiwyg, friendly_name, bool25, bool24, bool23, bool22, bool21, bool20, integer25, integer24, sort_order, inode]
+2013-02-02 20:13:06,614  INFO TableMetadata:42 - foreign keys: [fkfc4ef025fb51eb]
+2013-02-02 20:13:06,615  INFO TableMetadata:43 - indexes: [idx_contentlet_2, idx_contentlet_1, contentlet_pkey]
+2013-02-02 20:13:06,656  INFO TableMetadata:39 - table found: public.inode
+2013-02-02 20:13:06,657  INFO TableMetadata:40 - columns: [idate, owner, type, identifier, inode]
+2013-02-02 20:13:06,658  INFO TableMetadata:42 - foreign keys: []
+2013-02-02 20:13:06,659  INFO TableMetadata:43 - indexes: [idx_index_2, idx_index_1, inode_pkey]
+2013-02-02 20:13:06,697  INFO TableMetadata:39 - table found: public.siiogob
+2013-02-02 20:13:06,698  INFO TableMetadata:40 - columns: [id, id_tipo_de_datos, identificador, cadena_inicio, cadena_fin, url]
+2013-02-02 20:13:06,699  INFO TableMetadata:42 - foreign keys: []
+2013-02-02 20:13:06,699  INFO TableMetadata:43 - indexes: [siiogob_pkey]
+2013-02-02 20:13:06,734  INFO TableMetadata:39 - table found: public.tipodato
+2013-02-02 20:13:06,735  INFO TableMetadata:40 - columns: [nombre, id_structure_inode, descripcion, id_tipo_datos]
+2013-02-02 20:13:06,735  INFO TableMetadata:42 - foreign keys: []
+2013-02-02 20:13:06,736  INFO TableMetadata:43 - indexes: [tipodato_pkey]
+2013-02-02 20:13:06,770  INFO TableMetadata:39 - table found: public.seccionio
+2013-02-02 20:13:06,771  INFO TableMetadata:40 - columns: [id_structure_inode, descripcion, seccion, estatus]
+2013-02-02 20:13:06,771  INFO TableMetadata:42 - foreign keys: []
+2013-02-02 20:13:06,772  INFO TableMetadata:43 - indexes: [seccionio_pkey]
+2013-02-02 20:13:06,774  INFO SchemaUpdate:160 - schema update complete
+2013-02-02 20:13:06,978  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:13:06,978  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:13:06,980  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:13:06,981  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2013-02-02 20:13:06,981  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:13:06,984  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@6849c53e
+2013-02-02 20:13:06,998  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:13:06,998  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:13:06,999  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:13:07,000  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean2' initialized from an externally provided properties instance.
+2013-02-02 20:13:07,000  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:13:07,001  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@29b9d6a0
+2013-02-02 20:13:07,007  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:13:07,007  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:13:07,008  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:13:07,008  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean3' initialized from an externally provided properties instance.
+2013-02-02 20:13:07,008  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:13:07,009  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5d7d0457
+2013-02-02 20:13:07,032  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:13:07,033  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:13:07,034  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:13:07,034  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean4' initialized from an externally provided properties instance.
+2013-02-02 20:13:07,035  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:13:07,036  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@79c3f810
+2013-02-02 20:13:07,046  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:13:07,047  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:13:07,048  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:13:07,049  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean5' initialized from an externally provided properties instance.
+2013-02-02 20:13:07,049  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:13:07,050  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@63345875
+2013-02-02 20:13:07,063  INFO DefaultLifecycleProcessor:334 - Starting beans in phase 2147483647
+2013-02-02 20:13:07,064  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:13:07,064  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2013-02-02 20:13:07,064  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:13:07,064  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean2_$_NON_CLUSTERED started.
+2013-02-02 20:13:07,064  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:13:07,065  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean3_$_NON_CLUSTERED started.
+2013-02-02 20:13:07,065  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:13:07,065  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean4_$_NON_CLUSTERED started.
+2013-02-02 20:13:07,065  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:13:07,065  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean5_$_NON_CLUSTERED started.
+2013-02-02 20:13:07,067  INFO ContextLoader:302 - Root WebApplicationContext: initialization completed in 2143 ms
+2013-02-02 20:13:30,103  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:13:30,134  INFO ClassPathXmlApplicationContext:495 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4e5e8023: startup date [Sat Feb 02 20:13:30 VET 2013]; root of context hierarchy
+2013-02-02 20:13:30,137  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [ve/gob/gobiernoenlinea/config/sprinrgConfig.xml]
+2013-02-02 20:13:30,161  INFO PropertyPlaceholderConfigurer:177 - Loading properties file from class path resource [jdbc.properties]
+2013-02-02 20:13:30,166  INFO DefaultListableBeanFactory:557 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4c86c745: defining beans [propertyConfigurer,log4jInitializer,dataSource,sessionFactory,instDao,servicio_contentlet,servicio_SiIoGob,servicio_TipoDato,servicio_Seccionio,Directorios,Tramites,Estados,Municipios,Universidades,tarea,tarea2,tarea3,tarea4,tarea5,triggerTarea,triggerTarea2,triggerTarea3,triggerTarea4,triggerTarea5,schedulerFactoryBean,schedulerFactoryBean2,schedulerFactoryBean3,schedulerFactoryBean4,schedulerFactoryBean5]; root of factory hierarchy
+2013-02-02 20:13:30,196  INFO Configuration:1447 - configuring from url: file:/home/gerardo/NetBeansProjects/IoGobEnlineaBETAONE/build/web/WEB-INF/classes/ve/gob/gobiernoenlinea/config/hibernate.cfg.xml
+2013-02-02 20:13:30,207  INFO Configuration:1547 - Configured SessionFactory: null
+2013-02-02 20:13:30,209  INFO AnnotationBinder:387 - Binding entity from annotated class: ve.gob.gobiernoenlinea.modelo.Contentlet
+2013-02-02 20:13:30,211  INFO EntityBinder:340 - Bind entity ve.gob.gobiernoenlinea.modelo.Contentlet on table Contentlet
+2013-02-02 20:13:30,228  INFO AnnotationBinder:387 - Binding entity from annotated class: ve.gob.gobiernoenlinea.modelo.SiIoGob
+2013-02-02 20:13:30,232  INFO EntityBinder:340 - Bind entity ve.gob.gobiernoenlinea.modelo.SiIoGob on table SiIoGob
+2013-02-02 20:13:30,238  INFO AnnotationBinder:387 - Binding entity from annotated class: ve.gob.gobiernoenlinea.modelo.Inode
+2013-02-02 20:13:30,239  INFO EntityBinder:340 - Bind entity ve.gob.gobiernoenlinea.modelo.Inode on table Inode
+2013-02-02 20:13:30,241  INFO AnnotationBinder:387 - Binding entity from annotated class: ve.gob.gobiernoenlinea.modelo.TipoDato
+2013-02-02 20:13:30,242  INFO EntityBinder:340 - Bind entity ve.gob.gobiernoenlinea.modelo.TipoDato on table TipoDato
+2013-02-02 20:13:30,245  INFO AnnotationBinder:387 - Binding entity from annotated class: ve.gob.gobiernoenlinea.modelo.Seccionio
+2013-02-02 20:13:30,246  INFO EntityBinder:340 - Bind entity ve.gob.gobiernoenlinea.modelo.Seccionio on table seccionio
+2013-02-02 20:13:30,262  INFO LocalSessionFactoryBean:777 - Building new Hibernate SessionFactory
+2013-02-02 20:13:30,270  INFO ConnectionProviderFactory:72 - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2013-02-02 20:13:30,284  INFO SettingsFactory:89 - RDBMS: PostgreSQL, version: 8.4.14
+2013-02-02 20:13:30,286  INFO SettingsFactory:90 - JDBC driver: PostgreSQL Native Driver, version: PostgreSQL 8.3 JDBC3 with SSL (build 603)
+2013-02-02 20:13:30,287  INFO Dialect:152 - Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2013-02-02 20:13:30,289  INFO TransactionFactoryFactory:34 - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2013-02-02 20:13:30,291  INFO TransactionManagerLookupFactory:33 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2013-02-02 20:13:30,293  INFO SettingsFactory:143 - Automatic flush during beforeCompletion(): disabled
+2013-02-02 20:13:30,293  INFO SettingsFactory:147 - Automatic session close at end of transaction: disabled
+2013-02-02 20:13:30,294  INFO SettingsFactory:154 - JDBC batch size: 15
+2013-02-02 20:13:30,294  INFO SettingsFactory:157 - JDBC batch updates for versioned data: disabled
+2013-02-02 20:13:30,294  INFO SettingsFactory:162 - Scrollable result sets: enabled
+2013-02-02 20:13:30,295  INFO SettingsFactory:170 - JDBC3 getGeneratedKeys(): disabled
+2013-02-02 20:13:30,295  INFO SettingsFactory:178 - Connection release mode: auto
+2013-02-02 20:13:30,296  INFO SettingsFactory:205 - Default batch fetch size: 1
+2013-02-02 20:13:30,296  INFO SettingsFactory:209 - Generate SQL with comments: disabled
+2013-02-02 20:13:30,296  INFO SettingsFactory:213 - Order SQL updates by primary key: disabled
+2013-02-02 20:13:30,297  INFO SettingsFactory:217 - Order SQL inserts for batching: disabled
+2013-02-02 20:13:30,297  INFO SettingsFactory:386 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2013-02-02 20:13:30,298  INFO ASTQueryTranslatorFactory:24 - Using ASTQueryTranslatorFactory
+2013-02-02 20:13:30,299  INFO SettingsFactory:225 - Query language substitutions: {}
+2013-02-02 20:13:30,300  INFO SettingsFactory:230 - JPA-QL strict compliance: disabled
+2013-02-02 20:13:30,300  INFO SettingsFactory:235 - Second-level cache: enabled
+2013-02-02 20:13:30,301  INFO SettingsFactory:239 - Query cache: disabled
+2013-02-02 20:13:30,301  INFO SettingsFactory:373 - Cache provider: org.hibernate.cache.NoCacheProvider
+2013-02-02 20:13:30,301  INFO SettingsFactory:254 - Optimize cache for minimal puts: disabled
+2013-02-02 20:13:30,302  INFO SettingsFactory:263 - Structured second-level cache entries: disabled
+2013-02-02 20:13:30,302  INFO SettingsFactory:290 - Statistics: disabled
+2013-02-02 20:13:30,303  INFO SettingsFactory:294 - Deleted entity synthetic identifier rollback: disabled
+2013-02-02 20:13:30,303  INFO SettingsFactory:309 - Default entity-mode: pojo
+2013-02-02 20:13:30,304  INFO SettingsFactory:313 - Named query checking : enabled
+2013-02-02 20:13:30,318  INFO SessionFactoryImpl:161 - building session factory
+2013-02-02 20:13:30,347  INFO SessionFactoryObjectFactory:82 - Not binding factory to JNDI, no JNDI name configured
+2013-02-02 20:13:30,349  INFO SchemaUpdate:115 - Running hbm2ddl schema update
+2013-02-02 20:13:30,351  INFO SchemaUpdate:126 - fetching database metadata
+2013-02-02 20:13:30,355  INFO SchemaUpdate:138 - updating schema
+2013-02-02 20:13:30,487  INFO TableMetadata:39 - table found: public.contentlet
+2013-02-02 20:13:30,490  INFO TableMetadata:40 - columns: [bool3, text19, bool2, show_on_menu, text18, bool5, bool4, bool7, text15, bool6, text14, bool9, text17, bool8, text16, text_area16, text_area17, text_area18, text_area19, text_area12, text_area13, bool1, text_area14, text_area15, text_area20, language_id, text_area22, text_area21, mod_date, text10, text11, text12, text13, working, text_area9, text_area7, text25, text_area8, text_area5, text_area6, text_area3, text_area4, text_area1, text_area25, text_area2, text_area23, text_area24, text23, text24, text21, locked, text22, text20, date20, date21, date22, date23, mod_user, title, date25, date24, float22, date11, float23, date12, float24, float25, date10, text3, text4, float20, text1, float21, text2, text7, text8, text5, text6, text9, last_review, text_area11, text_area10, float19, date19, date18, review_interval, date17, float16, date16, float15, date15, float18, date14, float17, date13, float2, float3, float1, float10, float8, float9, float14, float6, float13, float7, float12, float4, float11, float5, date7, date6, date9, date8, date3, date2, date5, date4, date1, live, deleted, integer1, integer20, integer5, integer21, integer4, integer22, integer3, integer23, integer2, integer9, next_review, integer8, integer7, integer6, bool17, bool18, bool19, bool14, bool13, bool16, bool15, bool10, bool12, structure_inode, bool11, integer14, integer13, integer16, integer15, integer18, integer17, integer19, integer11, integer12, integer10, disabled_wysiwyg, friendly_name, bool25, bool24, bool23, bool22, bool21, bool20, integer25, integer24, sort_order, inode]
+2013-02-02 20:13:30,490  INFO TableMetadata:42 - foreign keys: [fkfc4ef025fb51eb]
+2013-02-02 20:13:30,491  INFO TableMetadata:43 - indexes: [idx_contentlet_2, idx_contentlet_1, contentlet_pkey]
+2013-02-02 20:13:30,542  INFO TableMetadata:39 - table found: public.inode
+2013-02-02 20:13:30,542  INFO TableMetadata:40 - columns: [idate, owner, type, identifier, inode]
+2013-02-02 20:13:30,543  INFO TableMetadata:42 - foreign keys: []
+2013-02-02 20:13:30,543  INFO TableMetadata:43 - indexes: [idx_index_2, idx_index_1, inode_pkey]
+2013-02-02 20:13:30,590  INFO TableMetadata:39 - table found: public.siiogob
+2013-02-02 20:13:30,590  INFO TableMetadata:40 - columns: [id, id_tipo_de_datos, identificador, cadena_inicio, cadena_fin, url]
+2013-02-02 20:13:30,591  INFO TableMetadata:42 - foreign keys: []
+2013-02-02 20:13:30,591  INFO TableMetadata:43 - indexes: [siiogob_pkey]
+2013-02-02 20:13:30,626  INFO TableMetadata:39 - table found: public.tipodato
+2013-02-02 20:13:30,626  INFO TableMetadata:40 - columns: [nombre, id_structure_inode, descripcion, id_tipo_datos]
+2013-02-02 20:13:30,627  INFO TableMetadata:42 - foreign keys: []
+2013-02-02 20:13:30,627  INFO TableMetadata:43 - indexes: [tipodato_pkey]
+2013-02-02 20:13:30,654  INFO TableMetadata:39 - table found: public.seccionio
+2013-02-02 20:13:30,654  INFO TableMetadata:40 - columns: [id_structure_inode, descripcion, seccion, estatus]
+2013-02-02 20:13:30,655  INFO TableMetadata:42 - foreign keys: []
+2013-02-02 20:13:30,655  INFO TableMetadata:43 - indexes: [seccionio_pkey]
+2013-02-02 20:13:30,657  INFO SchemaUpdate:160 - schema update complete
+2013-02-02 20:13:30,703  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:13:30,705  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:13:30,707  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:13:30,710  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2013-02-02 20:13:30,710  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:13:30,710  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@6e328cbf
+2013-02-02 20:13:30,714  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:13:30,715  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:13:30,715  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:13:30,715  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean2' initialized from an externally provided properties instance.
+2013-02-02 20:13:30,715  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:13:30,715  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@647f63b4
+2013-02-02 20:13:30,719  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:13:30,719  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:13:30,719  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:13:30,719  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean3' initialized from an externally provided properties instance.
+2013-02-02 20:13:30,719  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:13:30,719  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@3d2f3481
+2013-02-02 20:13:30,723  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:13:30,723  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:13:30,723  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:13:30,723  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean4' initialized from an externally provided properties instance.
+2013-02-02 20:13:30,723  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:13:30,724  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@313e6479
+2013-02-02 20:13:30,728  INFO SchedulerSignalerImpl:63 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2013-02-02 20:13:30,728  INFO QuartzScheduler:215 - Quartz Scheduler v.1.6.5 created.
+2013-02-02 20:13:30,728  INFO RAMJobStore:141 - RAMJobStore initialized.
+2013-02-02 20:13:30,728  INFO StdSchedulerFactory:1229 - Quartz scheduler 'schedulerFactoryBean5' initialized from an externally provided properties instance.
+2013-02-02 20:13:30,729  INFO StdSchedulerFactory:1233 - Quartz scheduler version: 1.6.5
+2013-02-02 20:13:30,729  INFO QuartzScheduler:2094 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@140fedd8
+2013-02-02 20:13:30,730  INFO DefaultLifecycleProcessor:334 - Starting beans in phase 2147483647
+2013-02-02 20:13:30,730  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:13:30,730  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2013-02-02 20:13:30,730  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:13:30,730  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean2_$_NON_CLUSTERED started.
+2013-02-02 20:13:30,731  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:13:30,731  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean3_$_NON_CLUSTERED started.
+2013-02-02 20:13:30,731  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:13:30,731  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean4_$_NON_CLUSTERED started.
+2013-02-02 20:13:30,731  INFO SchedulerFactoryBean:648 - Starting Quartz Scheduler now
+2013-02-02 20:13:30,731  INFO QuartzScheduler:461 - Scheduler schedulerFactoryBean5_$_NON_CLUSTERED started.
+2013-02-02 20:13:30,732  INFO ImpleDirectorios:58 - INICIO DE LA ACTUALIZACION DEL DIRECTORIO
+2013-02-02 20:13:31,035 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:31,035 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:31,083 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:31,093 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra www.gob.ve
+2013-02-02 20:13:32,305 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:13:32,309 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:13:32,327 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:13:32,335 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:13:32,344 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:13:32,347 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:13:34,352 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asd
+2013-02-02 20:13:34,356 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:13:34,360 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contra asdasd
+2013-02-02 20:13:34,365 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:13:34,370 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:13:34,373 ERROR ImpleDirectorios:83 - SIS002E: Problemas de Conexion contraasdasd
+2013-02-02 20:13:44,088  INFO XmlWebApplicationContext:1020 - Closing Root WebApplicationContext: startup date [Sat Feb 02 20:13:05 VET 2013]; root of context hierarchy
+2013-02-02 20:13:44,089  INFO DefaultLifecycleProcessor:349 - Stopping beans in phase 2147483647
+2013-02-02 20:13:44,093  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2013-02-02 20:13:44,093  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean2_$_NON_CLUSTERED paused.
+2013-02-02 20:13:44,094  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean3_$_NON_CLUSTERED paused.
+2013-02-02 20:13:44,094  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean4_$_NON_CLUSTERED paused.
+2013-02-02 20:13:44,094  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean5_$_NON_CLUSTERED paused.
+2013-02-02 20:13:44,094  INFO DefaultListableBeanFactory:433 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@454171c1: defining beans [propertyConfigurer,log4jInitializer,dataSource,sessionFactory,instDao,servicio_contentlet,servicio_SiIoGob,servicio_TipoDato,servicio_Seccionio,Directorios,Tramites,Estados,Municipios,Universidades,tarea,tarea2,tarea3,tarea4,tarea5,triggerTarea,triggerTarea2,triggerTarea3,triggerTarea4,triggerTarea5,schedulerFactoryBean,schedulerFactoryBean2,schedulerFactoryBean3,schedulerFactoryBean4,schedulerFactoryBean5]; root of factory hierarchy
+2013-02-02 20:13:44,095  INFO SchedulerFactoryBean:758 - Shutting down Quartz Scheduler
+2013-02-02 20:13:44,097  INFO QuartzScheduler:570 - Scheduler schedulerFactoryBean5_$_NON_CLUSTERED shutting down.
+2013-02-02 20:13:44,097  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean5_$_NON_CLUSTERED paused.
+2013-02-02 20:13:44,099  INFO QuartzScheduler:621 - Scheduler schedulerFactoryBean5_$_NON_CLUSTERED shutdown complete.
+2013-02-02 20:13:44,099  INFO SchedulerFactoryBean:758 - Shutting down Quartz Scheduler
+2013-02-02 20:13:44,099  INFO QuartzScheduler:570 - Scheduler schedulerFactoryBean4_$_NON_CLUSTERED shutting down.
+2013-02-02 20:13:44,099  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean4_$_NON_CLUSTERED paused.
+2013-02-02 20:13:44,101  INFO QuartzScheduler:621 - Scheduler schedulerFactoryBean4_$_NON_CLUSTERED shutdown complete.
+2013-02-02 20:13:44,102  INFO SchedulerFactoryBean:758 - Shutting down Quartz Scheduler
+2013-02-02 20:13:44,103  INFO QuartzScheduler:570 - Scheduler schedulerFactoryBean3_$_NON_CLUSTERED shutting down.
+2013-02-02 20:13:44,103  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean3_$_NON_CLUSTERED paused.
+2013-02-02 20:13:44,105  INFO QuartzScheduler:621 - Scheduler schedulerFactoryBean3_$_NON_CLUSTERED shutdown complete.
+2013-02-02 20:13:44,106  INFO SchedulerFactoryBean:758 - Shutting down Quartz Scheduler
+2013-02-02 20:13:44,106  INFO QuartzScheduler:570 - Scheduler schedulerFactoryBean2_$_NON_CLUSTERED shutting down.
+2013-02-02 20:13:44,107  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean2_$_NON_CLUSTERED paused.
+2013-02-02 20:13:44,109  INFO QuartzScheduler:621 - Scheduler schedulerFactoryBean2_$_NON_CLUSTERED shutdown complete.
+2013-02-02 20:13:44,109  INFO SchedulerFactoryBean:758 - Shutting down Quartz Scheduler
+2013-02-02 20:13:44,110  INFO QuartzScheduler:570 - Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2013-02-02 20:13:44,110  INFO QuartzScheduler:496 - Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2013-02-02 20:13:44,112  INFO QuartzScheduler:621 - Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2013-02-02 20:13:44,113  INFO LocalSessionFactoryBean:223 - Closing Hibernate SessionFactory
+2013-02-02 20:13:44,114  INFO SessionFactoryImpl:769 - closing

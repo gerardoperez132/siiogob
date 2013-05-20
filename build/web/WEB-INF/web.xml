@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <display-name>InteroperabilidadCNTI</display-name>
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>
+         classpath:/ve/gob/gobiernoenlinea/config/sprinrgConfig.xml          
+        </param-value>
+    </context-param>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>InteroperarServelet</servlet-name>
+        <servlet-class>ve.gob.gobiernoenlinea.Controlador.InteroperarServelet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InteroperarServelet</servlet-name>
+        <url-pattern>/InteroperarServelet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>InteroperarServelet2</servlet-name>
+        <servlet-class>ve.gob.gobiernoenlinea.Controlador.InteroperarServelet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InteroperarServelet2</servlet-name>
+        <url-pattern>/InteroperarServelet2</url-pattern>
+    </servlet-mapping>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/fallo404.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/fallo500.jsp</location>
+    </error-page>
+</web-app>
